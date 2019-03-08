@@ -47,6 +47,7 @@ The external HTTP interface of the API has a basic spec:
 4. [Deploy API using Elastic Container Service](4%20-%20Elastic%20Container%20Service/)
 5. [Deploy API using AWS Fargate](5%20-%20AWS%20Fargate/)
 6. [Deploy API using Kubernetes with kops](6%20-%20Kubernetes%20(kops)/)
+7. [Ingress NGINX with ELB](7%20-%20Ingress%20Nginx%20(elb)/)
 
 If you are running at home or on your own personal dev machine you technically don't have to use the remote development machine from step #1 and could instead choose to setup the dev environment on your own machine. This workshop encourages the use of a remote dev machine to avoid variations in personal devices when giving the workshop to many attendees, and additionally to move the burden of package downloads and container uploads onto an AWS internet connection instead of the local wifi connection at the workshop venue.
 
