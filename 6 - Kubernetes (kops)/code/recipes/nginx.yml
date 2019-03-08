@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-router
-        image: <your nginx-router image URL goes here>
+        image: tuanpembual/nginx-router
         ports:
         - containerPort: 80
 ---

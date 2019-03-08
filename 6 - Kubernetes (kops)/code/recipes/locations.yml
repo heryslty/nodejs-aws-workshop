@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: locations
-        image: <your locations image URL goes here>
+        image: tuanpembual/locations
         ports:
         - containerPort: 8081
 ---

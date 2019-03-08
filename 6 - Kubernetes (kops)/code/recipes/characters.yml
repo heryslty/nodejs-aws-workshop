@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: characters
-        image: <your characters image URL goes here>
+        image: tuanpembual/characters
         ports:
         - containerPort: 8081
 ---
