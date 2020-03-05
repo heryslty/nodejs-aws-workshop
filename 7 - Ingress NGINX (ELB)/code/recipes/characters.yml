@@ -1,5 +1,5 @@
 # Deploy the pods
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: characters-deployment
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: characters
-        image: tuanpembual/characters:latest
+        image: heryslty/characters:1.1
         ports:
         - containerPort: 8081
 ---

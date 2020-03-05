@@ -11,14 +11,19 @@ spec:
   rules:
 
 ## Service Location n Characters
-  - host: ingress.namadomain.id
+  - host: ingress.heryslty.xyz
     http:
       paths:
-      - path: /api/characters
+      - path: /
         backend:
-          serviceName: characters-service
-          servicePort: 8081
+          serviceName: web-cilsy
+          servicePort: 80
       - path: /api/locations
         backend:
           serviceName: locations-service
           servicePort: 8081
+      - path: /api/characters
+        backend:
+          serviceName: characters-service
+          servicePort: 8081
+
